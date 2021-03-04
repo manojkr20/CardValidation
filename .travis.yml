@@ -1,4 +1,5 @@
 language: java
+    exclude:
+           -ant
 jdk:
   - oraclejdk11
-script: ant cardvalidation
